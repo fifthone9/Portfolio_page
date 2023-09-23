@@ -5,6 +5,8 @@ body {
   font-family: Arial, sans-serif;
 }  
 
+/* header stylings */
+
 header {
   background-color: #ADD8E6;
   padding: 20px;
@@ -24,12 +26,23 @@ h1, h2, h3 {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
-a {
+/* link stylings */
+
+a: link {
   color: #00008B;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
   margin: 5px;
   padding: 5px;
+}
+
+a: visited { 
+  color: #f5f5;
+}
+
+a: hover {
+  color: #FF4500;
+  text-decoration: underline;
 }
 
 p {
@@ -42,7 +55,6 @@ p {
     color: #333;
   
 }
-
 
 ul {
   list-style-type: none;
